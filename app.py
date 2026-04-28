@@ -585,7 +585,7 @@ with tab4:
 
     styled = filtered.style\
         .format({'amount': '${:,.0f}', 'risk_score': '{:.1f}'})\
-        .applymap(color_risk, subset=['risk_band'])
+        .map(color_risk, subset=['risk_band'])
 
     st.dataframe(styled, use_container_width=True, height=420)
 
