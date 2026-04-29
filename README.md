@@ -1,11 +1,20 @@
 # 🛡️ Cyber-Financial Risk Scoring and Anomaly Detection Framework
 
 **Victor Badu** | MS Business Analytics | Chartered Accountant (CA) | FMVA  
+[![Live Demo](https://img.shields.io/badge/🔴%20Live%20Demo-Streamlit-FF4B4B?logo=streamlit)](https://victor-fraud-detection.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://python.org)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikit-learn)](https://scikit-learn.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://jupyter.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
+
+---
+
+## 🔴 Live Demo
+
+**👉 [https://victor-fraud-detection.streamlit.app/](https://victor-fraud-detection.streamlit.app/)**
+
+An interactive, publicly accessible demonstration of the complete framework — including real-time transaction risk scoring, anomaly detection visualization, model performance metrics, transaction-level inspector, and active alert system across five federal programs (Medicare, Medicaid, Federal Grants, Treasury, HUD Housing).
 
 ---
 
@@ -166,6 +175,11 @@ This framework uses the **PaySim Synthetic Financial Dataset** — a publicly av
 
 ### Running the Streamlit Dashboard
 
+The framework is deployed as a live interactive application:
+
+**🔴 Live URL: [https://victor-fraud-detection.streamlit.app/](https://victor-fraud-detection.streamlit.app/)**
+
+To run locally:
 ```bash
 # Install Streamlit
 pip install streamlit
@@ -256,7 +270,10 @@ The framework constructs 15 risk signals from raw transaction data:
 
 ---
 
-## 👤 Author
+## 🔗 Links
+- 🔴 [**Live Dashboard**](https://victor-fraud-detection.streamlit.app/)
+- 📁 [GitHub Repository](https://github.com/Kbadu-ops/cyber-financial-risk-framework)
+- 📄 [White Paper (SSRN)](https://ssrn.com)
 
 **Victor Badu**  
 MS Business Analytics | Chartered Accountant (CA) | FMVA | Google Cybersecurity  
