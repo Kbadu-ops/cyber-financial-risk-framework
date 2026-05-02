@@ -20,9 +20,11 @@ An interactive, publicly accessible demonstration of the complete framework — 
 
 ## 📌 Overview
 
-This repository contains the full implementation of the **Cyber-Financial Risk Scoring and Anomaly Detection Framework** — an integrated machine learning system designed to proactively detect financial fraud and prevent improper payments within large-scale federal disbursement programs including **Medicare, Medicaid, Federal Grants, Treasury Payments, and HUD Housing**.
+This repository contains the full implementation of the Cyber-Financial Risk Scoring and Anomaly Detection Framework — an integrated machine learning system designed to proactively detect financial fraud and prevent improper payments within large-scale financial systems.
 
-The framework addresses a documented national challenge: the U.S. federal government reports over **$200 billion in improper payments annually** (PaymentAccuracy.gov; GAO High-Risk Report). Existing oversight mechanisms are primarily retrospective — identifying losses only after funds have been improperly disbursed. This framework shifts that paradigm from reactive auditing to **proactive, real-time risk detection**.
+This framework was independently developed by Victor Badu, integrating professional experience in financial audit and internal controls with advanced training in business analytics, machine learning, and cybersecurity.
+
+The framework addresses a documented national challenge: the U.S. federal government reports over $200 billion in improper payments annually. Existing oversight mechanisms are largely retrospective. This framework shifts that approach toward proactive, data-driven risk detection and anomaly identification.
 
 ---
 
@@ -42,8 +44,30 @@ Validated against **508,213 financial transactions** totaling over **$101.4 bill
 | **False Positives (out of 124,999)** | 2 |
 
 > A ROC-AUC of **0.9994** means the framework correctly distinguishes fraudulent from legitimate transactions **99.94% of the time** — research-grade performance validated on a publicly available financial dataset.
-
+**Note:** These results were obtained using the PaySim synthetic dataset for research and demonstration purposes. Real-world performance may vary depending on data quality, system integration, and operational conditions.
 ---
+
+## 📌 🔐 Cybersecurity Signal Layer
+
+To strengthen the cyber-financial dimension, the framework incorporates behavioral and cybersecurity-related indicators:
+
+Signal	Description
+is_off_hours	Transaction outside normal working hours
+is_weekend	Weekend activity indicator
+high_claim_velocity	Rapid transaction frequency
+zero_dest_before	Suspicious recipient account behavior
+
+In real-world deployments, this framework can be extended to include:
+
+IP location mismatch
+device fingerprint changes
+failed login attempts
+session anomalies
+Example Cyber-Financial Risk Scenario
+
+If a user initiates a high-value transaction outside normal hours, from an unusual access pattern, and with abnormal account behavior, the framework assigns a high-risk score and flags the transaction for revie
+---
+
 
 ## 📊 Framework Visualizations
 
