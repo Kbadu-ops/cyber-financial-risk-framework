@@ -47,27 +47,6 @@ Validated against **508,213 financial transactions** totaling over **$101.4 bill
 **Note:** These results were obtained using the PaySim synthetic dataset for research and demonstration purposes. Real-world performance may vary depending on data quality, system integration, and operational conditions.
 ---
 
-## 📌 🔐 Cybersecurity Signal Layer
-
-To strengthen the cyber-financial dimension, the framework incorporates behavioral and cybersecurity-related indicators:
-
-Signal	Description
-is_off_hours	Transaction outside normal working hours
-is_weekend	Weekend activity indicator
-high_claim_velocity	Rapid transaction frequency
-zero_dest_before	Suspicious recipient account behavior
-
-In real-world deployments, this framework can be extended to include:
-
-IP location mismatch
-device fingerprint changes
-failed login attempts
-session anomalies
-Example Cyber-Financial Risk Scenario
-
-If a user initiates a high-value transaction outside normal hours, from an unusual access pattern, and with abnormal account behavior, the framework assigns a high-risk score and flags the transaction for revie
----
-
 
 ## 📊 Framework Visualizations
 
